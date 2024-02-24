@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ENG">
+
+<head>
+    <title>My Weather Application</title>
+    <link rel="stylesheet" href="./style.css"/>
+</head>
+
+<body>
+<div class="app-wrap">
+    <header>
+        <label>
+            <input type="text" autocomplete="on" class="search-box" placeholder="Search for a city..."/>
+        </label>
+    </header>
+    <main>
+        <section class="location">
+            <div class="city">New Delhi ,India</div>
+            <div class="date">Thursday 4 March 2022</div>
+        </section>
+        <div class="current">
+            <div class="temp">15<span>°c</span></div>
+            <div class="weather">Sunny</div>
+            <div class="min-max">18°c / 22°c</div>
+        </div>
+    </main>
+</div>
+<script src="./js/index.js" type="module"></script>
+<script src="./js/WeatherApp/TestCases/apiTest.js" type="module"></script>
+<script src="./js/WeatherApp/TestCases/utilsTest.js" type="module"></script>
+</body>
+
+</html>
